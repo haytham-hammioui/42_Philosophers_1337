@@ -51,24 +51,24 @@ The `Philosophers` project is part of the 42 network curriculum. It's a simulati
     - **`[number_of_times_each_philosopher_must_eat]`**: *(Optional)* If specified, simulation stops when all philosophers have eaten at least this many times
 
   Example:
-    ```sh
+  ```sh
      # Basic simulation with 5 philosophers
       ./philo 5 800 200 200
      # Simulation that stops after each philosopher eats 7 times
       ./philo 4 410 200 200 7
      # Single philosopher case (will die)
       ./philo 1 800 200 200
-    ```
+  ```
     
 ### Program Output
   The program displays the state of each philosopher in real-time:
-    ```sh
+  ```sh
     timestamp_in_ms X has taken a fork
     timestamp_in_ms X is eating
     timestamp_in_ms X is sleeping
     timestamp_in_ms X is thinking
     timestamp_in_ms X died
-    ```
+  ```
    
 ## Contributing
 
