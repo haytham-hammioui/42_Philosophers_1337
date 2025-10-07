@@ -5,7 +5,7 @@
   </a>
 </p>
 
-# push_swap
+# Philosophers
 
 The `Philosophers` project is part of the 42 network curriculum. It's a simulation of the classic Dining Philosophers problem, demonstrating synchronization issues in concurrent programming and solutions using `threads` and `mutexes`.
 
